@@ -1,0 +1,23 @@
+.header {
+    padding: var(--spacing-small);
+    background-color: var(--color-medium);
+    margin-bottom: 20px;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.header-container__item {
+    margin-right: 20px;
+    padding: 15px 15px 15px 0;
+}
+
+.header-catalog,
+.header-select {
+    cursor: pointer;
+    text-decoration: underline;
+}
