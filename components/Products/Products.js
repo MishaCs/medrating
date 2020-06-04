@@ -64,7 +64,7 @@ class Products {
         let fullImage = `
             <div class="products-image-wrap">
                 <div class="products-image-container">
-                    <img src="/components/Products/img/close.svg" class="products-image-container__close-btn" onclick="productsPage.closeBtn();"></img>
+                    <img src="components/Products/img/close.svg" class="products-image-container__close-btn" onclick="productsPage.closeBtn();"></img>
                     <img src="${url}" class="products-image-container__full-image" title="${title}"></img>
                 </div>
 

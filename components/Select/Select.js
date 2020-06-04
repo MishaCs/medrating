@@ -63,7 +63,7 @@ class Select {
         let fullImage = `
             <div class="select-image-wrap">
                 <div class="select-image-container">
-                    <img src="/components/Products/img/close.svg" class="select-image-container__close-btn" onclick="selectPage.closeBtn();"></img>
+                    <img src="components/Select/img/close.svg" class="select-image-container__close-btn" onclick="selectPage.closeBtn();"></img>
                     <img src="${url}" class="select-image-container__full-image" title="${title}"></img>
                 </div>
             </div>

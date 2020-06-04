@@ -5,8 +5,11 @@ function render() {
 
 let CATALOG = [];
 
+
+// api не всегда работает, поэтому оставлю локальный json
 // server/catalog.json
-fetch('https://json.medrating.org/photos?albumId=2')
+// https://json.medrating.org/photos?albumId=2
+fetch('server/catalog.json')
     .then(res => res.json())
     .then(body => {
         CATALOG = body;
